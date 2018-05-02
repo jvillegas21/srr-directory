@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import Search from './Search';
-import {Nav, Navbar, NavItem, MenuItem, NavDropdown, FormGroup, FormControl, Button} from 'react-bootstrap';
+import { Nav, Navbar, NavItem, MenuItem, NavDropdown } from 'react-bootstrap';
 import srrLogo from './img/srr-logo.png';
 
 class NavBar extends Component {
@@ -30,14 +29,6 @@ class NavBar extends Component {
               <MenuItem divider />
               <MenuItem eventKey={3.3}>Separated link</MenuItem>
             </NavDropdown>
-          </Nav>
-          <Nav pullRight>
-            <Navbar.Form pullRight>
-              <FormGroup>
-                <FormControl type="text" placeholder="Search" />
-              </FormGroup>{' '}
-              <Button type="submit">Submit</Button>
-            </Navbar.Form>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

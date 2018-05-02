@@ -3,7 +3,7 @@ import BusinessIMG from './BusinessImage';
 import BusinessInfo from './BusinessInfo';
 import { Grid, Col, Row } from 'react-bootstrap';
 
-class BusinessListing extends Component {
+class BusinessListingItem extends Component {
   render() {
     return (
       <Grid>
@@ -20,4 +20,4 @@ class BusinessListing extends Component {
   }
 }
 
-export default BusinessListing;
+export default BusinessListingItem;

@@ -4,7 +4,7 @@ import NavBar from '../Nav/Navbar';
 class Header extends Component {
   render() {
     return(
-      <div className="srr-header">
+      <div class="srr-header">
         <NavBar />
       </div>
     );

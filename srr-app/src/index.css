@@ -6733,8 +6733,16 @@ body {
 .srr-business-info-wrapper {
   text-align: left;
 }
+.srr-directory-search-container {
+  background-color: #B2A8B9;
+  padding: 2rem;
+}
 .navbar {
+  background-color: #5A537A!important;
+  border: none!important;
+  border-radius: 0!important;
   height: 90px;
+  margin-bottom: 0!important;
 }
 .navbar .navbar-collapse {
   position: relative;
